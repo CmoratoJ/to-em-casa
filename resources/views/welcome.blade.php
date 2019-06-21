@@ -9,6 +9,10 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <link rel="stylesheet" href="css/app.css">
+
+        <script src="js/app.js" charset="utf-8"></script>
+
         <!-- Styles -->
         <style>
             html, body {
