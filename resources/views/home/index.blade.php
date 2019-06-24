@@ -32,19 +32,19 @@
 
     <div class="container">
         <div class="row d-flex justify-content-between fonte-texto">
-            <div style="width: 23rem;">
+            <div class="largura-card">
                 <div class="card-body">
                     <h5 class="card-title">Viva novas experiências</h5>
                     <p class="card-text">Rio de Janeiro, Paraty, Florianópolis ou Gramado? Visite qualquer lugar que você ache exótico; é uma das experiências mais gratificantes que você pode ter. Aproveite a oportunidade para fugir da rotina enquanto desfruta de um lugar especial. Basta escolher um lugar que lhe inspire e aproveitar alguns dias para conhecê-lo e viver plenamente.</p>
                 </div>
             </div>
-            <div style="width: 23rem;">
+            <div class="largura-card">
                 <div class="card-body">
                     <h5 class="card-title">Conheça novos horizontes</h5>
                     <p class="card-text">Somos o resultado dos livros que lemos, das viagens que fazemos e das pessoas que amamos, portanto não se limite e experimente novas comidas, culturas e emoções. Existe todo um “mar de oportunidades” na “vida lá fora”, e você não pode ficar preso a velhos hábitos.</p>
                 </div>
             </div>
-            <div style="width: 23rem;">
+            <div class="largura-card">
                 <div class="card-body">
                     <h5 class="card-title">Aprenda novas culturas</h5>
                     <p class="card-text">Viajar é ter a oportunidade de experimentar novas culturas, de conhecer gente nova e de compartilhar ideias neste mundo que é multicultural. Viajar é divertir-se e experimentar emoções, sensações e sentimentos, é experimentar o desconhecido e experimentar gostos novos, gastronomia e maravilhosos espaços naturais, artísticos e culturais.</p>

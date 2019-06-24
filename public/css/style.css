@@ -21,6 +21,9 @@
     font-style: italic;
     line-height: 20px;
 }
+.largura-card{
+    width: 23rem;
+}
 .jumbotron {
     background-color: white;
     color: #36648B;
