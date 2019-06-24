@@ -41,8 +41,6 @@
     </div>
 </nav>
 <div>
-    @yield('cabecalho')
-
     @yield('conteudo')
 
     <footer class="text-center bg-lightgray">

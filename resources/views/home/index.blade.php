@@ -1,6 +1,7 @@
 @extends('layout')
 
-@section('cabecalho')
+@section('conteudo')
+
     <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner altura-slide">
@@ -129,8 +130,5 @@
             </div>
         </div>
     </div>
-@endsection
-
-@section('conteudo')
 
 @endsection
