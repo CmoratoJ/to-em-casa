@@ -30,14 +30,24 @@
                 <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Pesquisar</button>
             </form>
         </ul>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Cadastre-se</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
-            </li>
-        </ul>
+        @guest
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/register">Cadastre-se</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+            </ul>
+        @endguest
+
+        @auth
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/sair">Sair</a>
+                </li>
+            </ul>
+        @endauth
     </div>
 </nav>
 <div>
@@ -53,3 +63,12 @@
 </div>
 </body>
 </html>
+
+<script>
+    $('.nav li').click(function() {
+        $(this).siblings('li').removeClass('active');
+        $(this).addClass('active');
+
+        return false;
+    });
+</script>
